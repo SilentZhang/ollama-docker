@@ -1,0 +1,1 @@
+ollama + Model docker image
