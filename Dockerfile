@@ -4,7 +4,7 @@ FROM ollama/ollama:latest
 #RUN ollama pull llamafamily/llama3-chinese-8b-instruct
 
 COPY ./run-ollama.sh /tmp/run-ollama.sh
-COPY ./self-llm3.Modelfile /tmp/self-llm3.Modelfile
+COPY ./self-llama3.Modelfile /tmp/self-llama3.Modelfile
 
 WORKDIR /tmp
 

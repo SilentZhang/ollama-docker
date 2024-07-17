@@ -3,4 +3,6 @@
 ollama serve &
 ollama list
 ollama pull dolphin-llama3
-ollama create zc-llama3 -f self-llama3.Modelfile
+pwd
+ls -l /tmp
+ollama create zc-llama3 -f ./self-llama3.Modelfile
